@@ -70,6 +70,15 @@ High salary employees are concentrated in specific education groups
 What i learned
 How to filter and analyze real-world datasets using Pandas
 How to group data and extract meaningful statistics
+
+
+
+
+
+Here is the dataset
+
+[Employee.csv](https://github.com/user-attachments/files/27852705/Employee.csv)
+
 How to visualize data clearly using Matplotlib and Seaborn
 How to turn raw data into insights for decision-making
 
