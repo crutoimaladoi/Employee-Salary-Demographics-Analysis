@@ -16,7 +16,7 @@ Build a beginner-friendly data analysis project for portfolio
 
 Tools that i used
 Tools & Libraries Used
-Python 🐍
+Python 
 Pandas (data manipulation)
 Matplotlib (visualization)
 Seaborn (advanced visualization)
