@@ -7,6 +7,8 @@ import seaborn as sns
 
 df=pd.read_csv('Employee.csv')
 
+
+
 #--------------
 #DATA FILTERING
 #-------------
@@ -86,3 +88,5 @@ plt.figure(figsize=(6,4))
 sns.heatmap(pivot, annot=True, cmap="YlGnBu")
 plt.title("Payment Tier: Education vs Gender")
 plt.show()
+print(df.isnull().sum())
+print(df.duplicated().sum())
