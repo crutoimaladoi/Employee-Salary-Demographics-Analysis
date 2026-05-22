@@ -87,6 +87,7 @@ pivot = df.pivot_table(values='PaymentTier', index='Education', columns='Gender'
 plt.figure(figsize=(6,4))
 sns.heatmap(pivot, annot=True, cmap="YlGnBu")
 plt.title("Payment Tier: Education vs Gender")
+plt.savefig('employee_visualizations.png', dpi=300)
 plt.show()
 print(df.isnull().sum())
 print(df.duplicated().sum())
